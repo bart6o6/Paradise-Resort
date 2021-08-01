@@ -1,0 +1,49 @@
+body {
+  padding: 0% 6%;
+}
+
+.navbar-brand {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 2rem;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  margin: auto 10px;
+}
+
+hr {
+  margin-top: 0px;
+}
+
+.title-section {
+  text-align: center;
+  padding: 5% 0;
+}
+
+.title-photo {
+  max-height: 600px;
+  width: 90%;
+  margin: 50px auto;
+  border-radius: 3%;
+}
+
+.title-header {
+  color: black;
+  font-size: 3.5rem;
+  font-family: 'Kaushan Script', cursive;
+  line-height: 2;
+}
+
+.paradise-resort-emphasis {
+  color: #bbf3f4;
+  font-weight: bold;
+}
+
+#activities {
+  border-color: rgba(187, 243, 244, 0.35);
+  border-style: solid;
+  margin: 50px 30px;
+  border-radius: 10px;
+  padding: 3%;
+}
