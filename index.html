@@ -14,7 +14,7 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-md navbar-light">
+  <nav class="navbar navbar-expand-md navbar-light ">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">Paradise Resort</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,7 +23,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Pricing</a>
+            <a class="nav-link active" aria-current="page" href="#">Offer</a>
           </li>
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#">Gallery</a>
@@ -38,16 +38,19 @@
       </div>
     </div>
   </nav>
-  <hr>
+  <!-- <hr> -->
 
   <section class="title-section" id="">
 
     <div class="row">
       <div class="col-lg-6 ">
         <h1 class="title-header">It's time for your dream holidays.<br>At <span class="paradise-resort-emphasis">Paradise resort</span>, we can make them<br>
-          <div>unforgetable</div>
+          <div class="animated-description">unforgetable</div>
         </h1>
+        <button class="btn btn-outline-dark" type="button" name="button" >See our rooms</button>
+        <button class="btn btn-outline-dark" type="button" name="button" >Ask for availability</button>
       </div>
+
 
       <div class="col-lg-6">
         <img class="title-photo" src="images/overview-photo2.jpg" alt="">
@@ -58,92 +61,79 @@
   <section id="gallery">
   </section>
 
-  <section id="activities">
+  <section id="activities" class="shadow p-3 mb-5 bg-white rounded">
 
-    <div class="row">
+    <h1 class="activities-heading">We've got your activities covered</h1>
+    <p class="activities-description">No matter if you love water sports and hiking or just want to spend the whole day by the pool and watch sunshines. We know all the best stuff around.</p>
 
-      <div class="col-lg-3">
+    <div class="row activities-cards">
+      <div class="row">
 
-        <div class="card" style="width: 18rem;">
-          <img src="..." class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          </div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">An item</li>
-            <li class="list-group-item">A second item</li>
-            <li class="list-group-item">A third item</li>
-          </ul>
-          <div class="card-body">
-            <a href="#" class="card-link">Card link</a>
-            <a href="#" class="card-link">Another link</a>
+        <div class="col col-xl-4 col-lg-4 col-md-6 col-sm-12">
+          <div class="card mb-3">
+            <img src="images/card-image-surfing.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Surfing</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="col-lg-3">
-        <div class="card" style="width: 18rem;">
-          <img src="..." class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          </div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">An item</li>
-            <li class="list-group-item">A second item</li>
-            <li class="list-group-item">A third item</li>
-          </ul>
-          <div class="card-body">
-            <a href="#" class="card-link">Card link</a>
-            <a href="#" class="card-link">Another link</a>
+        <div class="col col-xl-4 col-lg-4 col-md-6 col-sm-12">
+          <div class="card mb-3">
+            <img src="images/card-image-restaurant.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">All inclusive</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="col-lg-3">
-        <div class="card" style="width: 18rem;">
-          <img src="..." class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          </div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">An item</li>
-            <li class="list-group-item">A second item</li>
-            <li class="list-group-item">A third item</li>
-          </ul>
-          <div class="card-body">
-            <a href="#" class="card-link">Card link</a>
-            <a href="#" class="card-link">Another link</a>
+        <div class="col col-xl-4 col-lg-4 col-md-6 col-sm-12">
+          <div class="card mb-3">
+            <img src="images/card-image-tours.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Professional tour guides</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="col-lg-3">
-        <div class="card" style="width: 18rem;">
-          <img src="..." class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          </div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">An item</li>
-            <li class="list-group-item">A second item</li>
-            <li class="list-group-item">A third item</li>
-          </ul>
-          <div class="card-body">
-            <a href="#" class="card-link">Card link</a>
-            <a href="#" class="card-link">Another link</a>
+        <div class="col col-xl-4 col-lg-4 col-md-6 col-sm-12">
+          <div class="card mb-3">
+            <img src="images/card-image-party.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Beach parties</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
           </div>
         </div>
-      </div>
+        <div class="col col-xl-4 col-lg-4 col-md-6 col-sm-12">
+          <div class="card mb-3">
+            <img src="images/card-image-diving.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Scuba diving</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col col-xl-4 col-lg-4 col-md-6 col-sm-12">
+          <div class="card mb-3">
+            <img src="images/card-image-kids.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Entretainments for children</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
 
+          </div>
+        </div>
+
+      </div>
 
     </div>
   </section>
 
-  <section id="pricing">
+  <section id="offer">
   </section>
 
   <section id="contact">
