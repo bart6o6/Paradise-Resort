@@ -1,5 +1,5 @@
 body {
-  padding: 0% 6%;
+  padding: 0% 7%;
 }
 
 .navbar{
@@ -51,17 +51,33 @@ border-style: solid;
 .animated-description{
 }
 
+.btn{
+  margin:9% 40px 0;
+}
+
+
+/* ACTIVITIES */
 #activities {
   border-color: rgba(187, 243, 244, 0.35);
   border-style: solid;
-  margin: 50px 30px;
+  margin: 50px auto;
   border-radius: 10px;
   padding: 3% 7%;
 }
 
-.activities-cards{
+.card{
+  margin: 30px 25px;
+}
+/* OFFER */
+
+#offer{
+  padding: 3% 7%;
 }
 
-.btn{
-  margin:9% 40px 0;
+.room-offer{
+  padding: 10px 25%;
+}
+
+.offer-image{
+  margin-right: 10px;
 }
