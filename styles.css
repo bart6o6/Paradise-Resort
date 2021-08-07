@@ -51,9 +51,14 @@ border-style: solid;
 .animated-description{
 }
 
-.btn{
+.title-section-buttons{
   margin:9% 40px 0;
 }
+
+/* animation start */
+
+
+/* animation end */
 
 
 /* ACTIVITIES */
@@ -69,6 +74,7 @@ border-style: solid;
   margin: 30px 25px;
 }
 /* OFFER */
+
 #offer{
   padding: 3% 7%;
 }
@@ -79,4 +85,29 @@ border-style: solid;
 
 .offer-image{
   margin-right: 10px;
+}
+
+.button-room-picker{
+margin: auto auto;
+}
+
+/* CONTACT */
+.contact-container{
+  margin:40px 50px;
+}
+
+.contact-person-photo{
+  float: left;
+  border-radius: 100%;
+  max-width: 200px;
+  padding:10px;
+}
+
+/* FOOTER */
+#footer{
+border-bottom: 0px;
+border-left: 0px;
+border-right: 0px;
+border-radius: 10px;
+border-style: solid;
 }
