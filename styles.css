@@ -59,6 +59,7 @@ border-style: solid;
 
 /* ACTIVITIES */
 #activities {
+  padding: 3% 7% !important;
   border-color: rgba(187, 243, 244, 0.35);
   border-style: solid;
   margin: 50px auto;
@@ -72,7 +73,7 @@ border-style: solid;
 /* OFFER */
 
 #offer{
-  padding: 3% 7%;
+  padding: 3% 7% !important;
 }
 
 .room-offer{
@@ -88,6 +89,9 @@ margin: auto auto;
 }
 
 /* CONTACT */
+#contact{
+  padding: 3% 7% !important;
+}
 .contact-container{
   margin:40px 50px;
 }
@@ -99,17 +103,7 @@ margin: auto auto;
   padding:10px;
 }
 
-/* FOOTER */
-#footer{
-border-bottom: 0px;
-border-left: 0px;
-border-right: 0px;
-border-radius: 10px;
-border-style: solid;
-}
-
-
-/* contact form */
+/* contact form start */
 .form {
     /* width: 40%; */
     /* background-color: white; */
@@ -184,4 +178,18 @@ border-style: solid;
 .send-email-button {
     -webkit-appearance: none;
     margin-right: 0
+}
+/* contact form end */
+
+/* FOOTER */
+#footer{
+padding: 3% 7%;
+border-bottom: 0px;
+border-left: 0px;
+border-right: 0px;
+border-radius: 10px;
+border-style: solid;
+}
+
+.footer-icon{
 }
