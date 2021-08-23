@@ -38,21 +38,25 @@
   </nav>
   <!-- <hr> -->
   <section class="title-section " id="">
-
     <div class="row">
       <div class="col-lg-6 ">
         <h1 class="title-header">It's time for your dream holidays.<br>At <span class="paradise-resort-emphasis">Paradise resort</span>, we can make them<br>
-          <div class="animated-description">unforgetable</div>
+          <div class="adjectives-container" aria-hidden="true">
+            <p class="rotatingText">
+              I'll make your website&hellip;
+
+              <span class="rotatingText-adjective">beautiful</span>
+              <span class="rotatingText-adjective">maintainable</span>
+              <span class="rotatingText-adjective">perfect 👌</span>
+            </p>
         </h1>
         <!-- animation start -->
 
         <!-- animation end -->
 
-
         <button class="btn btn-outline-dark title-section-buttons" type="button" name="button">See our rooms</button>
         <button class="btn btn-outline-dark title-section-buttons" type="button" name="button">Ask for availability</button>
       </div>
-
 
       <div class="col-lg-6">
         <img class="title-photo" src="images/overview-photo2.jpg" alt="">
@@ -70,7 +74,7 @@
 
     <div class="row activities-cards">
 
-      <div class="col col-xl-4 col-lg-4 col-md-6 col-sm-12">
+      <div class="col col-xl-4 col-lg-4 col-md-6 col-12">
         <div class="card mb-3">
           <img src="images/card-image-surfing.jpg" class="card-img-top" alt="...">
           <div class="card-body">
@@ -80,7 +84,7 @@
         </div>
       </div>
 
-      <div class="col col-xl-4 col-lg-4 col-md-6 col-sm-12">
+      <div class="col col-xl-4 col-lg-4 col-md-6 col-12">
         <div class="card mb-3">
           <img src="images/card-image-restaurant.jpg" class="card-img-top" alt="...">
           <div class="card-body">
@@ -90,7 +94,7 @@
         </div>
       </div>
 
-      <div class="col col-xl-4 col-lg-4 col-md-6 col-sm-12">
+      <div class="col col-xl-4 col-lg-4 col-md-6 col-12">
         <div class="card mb-3">
           <img src="images/card-image-tours.jpg" class="card-img-top" alt="...">
           <div class="card-body">
@@ -100,7 +104,7 @@
         </div>
       </div>
 
-      <div class="col col-xl-4 col-lg-4 col-md-6 col-sm-12">
+      <div class="col col-xl-4 col-lg-4 col-md-6 col-12">
         <div class="card mb-3">
           <img src="images/card-image-party.jpg" class="card-img-top" alt="...">
           <div class="card-body">
@@ -109,7 +113,7 @@
           </div>
         </div>
       </div>
-      <div class="col col-xl-4 col-lg-4 col-md-6 col-sm-12">
+      <div class="col col-xl-4 col-lg-4 col-md-6 col-12">
         <div class="card mb-3">
           <img src="images/card-image-diving.jpg" class="card-img-top" alt="...">
           <div class="card-body">
@@ -118,7 +122,8 @@
           </div>
         </div>
       </div>
-      <div class="col col-xl-4 col-lg-4 col-md-6 col-sm-12">
+
+      <div class="col col-xl-4 col-lg-4 col-md-6 col-12">
         <div class="card mb-3">
           <img src="images/card-image-kids.jpg" class="card-img-top" alt="...">
           <div class="card-body">
@@ -128,7 +133,6 @@
 
         </div>
       </div>
-
 
     </div>
   </section>
@@ -202,7 +206,6 @@
       </div>
     </div>
     <!-- Tabs end -->
-
   </section>
 
   <section class="shadow p-3 mb-5 rounded" id="contact">
@@ -213,23 +216,28 @@
 
         <div class="contact-container">
           <img class="contact-person-photo" src="images/contact-1.jpg" alt="">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vulputate luctus arcu eu laoreet. Morbi et ligula erat. Morbi non risus at lorem molestie rhoncus et eget velit. Duis vel semper augue. Donec mattis mauris ut sagittis
-            venenatis. Praesent sed ex vel mauris dignissim ullamcorper tincidunt et justo. Vivamus sodales aliquam erat, non iaculis ex convallis in. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-          </p>
+          <div class="contact-person-info">
+
+            <h4 class="contact-name">Christiana Haney</h4>
+            <span>Hotel manager</span><br>
+            <span>phone: 829 119 222</span><br>
+            <span>email:</span>
+          </div>
         </div>
 
         <div class="contact-container">
           <img class="contact-person-photo" src="images/contact-2.jpg" alt="">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vulputate luctus arcu eu laoreet. Morbi et ligula erat. Morbi non risus at lorem molestie rhoncus et eget velit. Duis vel semper augue. Donec mattis mauris ut sagittis
-            venenatis. Praesent sed ex vel mauris dignissim ullamcorper tincidunt et justo. Vivamus sodales aliquam erat, non iaculis ex convallis in. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-          </p>
+          <div class="contact-person-info">
+          <h4 class="contact-name">Pia Jeffery</h4>
+          <p>Hotel manager</p>
+            <p>phone: 829 119 222</p>
+            <p>email:</p>
+          </div>
         </div>
       </div>
 
       <!-- Contact form start-->
-      <div class="col col-lg-6 col-md-12">
+      <div class="col col-lg-6 col-12">
         <div class="form">
           <h1>Get In Touch</h1>
           <form action="">
@@ -243,7 +251,7 @@
       <!-- contact form end -->
 
       <!-- Embed map start -->
-      <div class="col col-lg-12">
+      <div class="col col-lg-12 col-12">
         <iframe width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
           src="https://www.openstreetmap.org/export/embed.html?bbox=-61.47322654724122%2C16.192111771257995%2C-61.43752098083497%2C16.209997394522972&amp;layer=mapnik&amp;marker=16.201054785664198%2C-61.455373764038086"
           style="border: 1px solid black"></iframe><br /><small><a href="https://www.openstreetmap.org/?mlat=16.2011&amp;mlon=-61.4554#map=16/16.2011/-61.4554">View Larger Map</a></small>
@@ -254,15 +262,14 @@
 
   <section id="footer">
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vulputate luctus arcu eu laoreet. Morbi et ligula erat. Morbi non risus at lorem molestie rhoncus et eget velit. Duis vel semper augue. Donec mattis mauris ut sagittis venenatis.
-    Praesent sed ex vel mauris dignissim ullamcorper tincidunt et justo. Vivamus sodales aliquam erat, non iaculis ex convallis in. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-<div class="row">
+      Praesent sed ex vel mauris dignissim ullamcorper tincidunt et justo. Vivamus sodales aliquam erat, non iaculis ex convallis in. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
 
-<i class="fab fa-facebook-square fa-2x footer-icon col-sm-4"></i>
-<i class="fas fa-at fa-2x footer-icon col-sm-4"></i>
-<i class="fas fa-map-marked-alt fa-2x footer-icon col-sm-4"></i>
-</div>
+    <div class="footer-icons">
+      <i class="fab fa-facebook-square fa-2x footer-icon"></i>
+      <i class="fas fa-at fa-2x footer-icon"></i>
+      <i class="fas fa-map-marked-alt fa-2x footer-icon"></i>
+    </div>
   </section>
-
 
 </body>
 
