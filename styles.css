@@ -20,17 +20,17 @@ border-style: solid;
   margin: auto 10px;
 }
 
-.title-section {
+#title-section {
   text-align: center;
   padding: 6% 0;
 }
 
 .title-photo {
   max-height: 600px;
-  width: 90%;
-  margin: 50px auto;
+  margin: 20px auto;
   border-radius: 3%;
-}
+  max-width: 98%;}
+
 
 .title-header {
   color: black;
@@ -98,6 +98,15 @@ margin: auto auto;
 #contact{
   padding: 3% 7% !important;
 }
+.contact-name{
+  margin-bottom: 20px;
+}
+
+.contact-person-info{
+  line-height: 1.4;
+  padding-left: 25px;
+}
+
 .contact-container{
   margin:80px auto 100px;
   clear: both;
@@ -114,6 +123,10 @@ margin: auto auto;
 .contact-person-info{
   margin-left: 180px;
 
+}
+
+.map-box{
+  margin-top: 80px;
 }
 
 /* contact form start */
@@ -215,19 +228,23 @@ text-align: center;
 }
 /* test */
 
+.rotatingText{
+display: inline-block;
+width: 300px;}
 
 .rotatingText-adjective {
-  font-family: "Open Sans", sans-serif;
-  font-size: 50px;
+  /* font-family: "Open Sans", sans-serif; */
+  /* font-size: 50px; */
   font-style: normal;
   font-weight: 700;
-  left: 0;
-  margin-bottom: 0;
-  margin-top: 50px;
+  /* left: 0; */
+  /* margin-bottom: 0; */
+  /* margin-top: 50px; */
   opacity: 0;
-  position: inherit;
-  right: 0;
-  top: 0;
+  display: inline-block;
+  /* right: 0; */
+  /* top: 0; */
+  position: absolute;
 }
 
 .rotatingText-adjective:nth-of-type(1) {
