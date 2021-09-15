@@ -228,8 +228,15 @@ text-align: center;
 }
 /* test */
 
+.adjectives-container{
+  width: 100px;
+  margin-bottom: 100px;
+  padding-right: 50px;
+  text-align: center;
+}
+
 .rotatingText{
-display: inline-block;
+display: inherit;
 width: 300px;}
 
 .rotatingText-adjective {
