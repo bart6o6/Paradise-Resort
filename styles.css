@@ -239,9 +239,10 @@ border-left: 0px;
 border-right: 0px;
 border-radius: 10px;
 border-style: solid;
-text-align: center;
 margin-top: 100px;
+line-height: 0.8;
 }
+
 
 .footer-icons{
   display: flex;
@@ -252,10 +253,11 @@ margin-top: 100px;
   margin: auto auto;
 }
 
-/* .copyright{
+.copyright{
   margin-top: 40px;
   font-size: 11px;
-} */
+  text-align: center;
+}
 
 /* test */
 
