@@ -32,6 +32,9 @@
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#contact">Contact</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Get directions</a>
+          </li>
         </ul>
       </div>
     </div>
@@ -277,8 +280,8 @@
   </section>
 
   <section class="shadow p-3 mb-5 rounded" id="contact">
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vulputate luctus arcu eu laoreet. Morbi et ligula erat. Morbi non risus at lorem molestie rhoncus et eget velit. Duis vel semper augue. Donec mattis mauris ut sagittis venenatis.
-      Praesent sed ex vel mauris dignissim ullamcorper tincidunt et justo. Vivamus sodales aliquam erat, non iaculis ex convallis in. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+    <h3>Contact us!</h3>
+    <p>We're here to answer all the questions. Both via phone call or email, we'd love to provide answers for any of your questions or get value feedback.</p>
     <div class="row">
       <div class="col col-lg-6 col-md-12 col-sm-12">
 
@@ -340,18 +343,38 @@
   <div class="row">
     <div class=" footer-info col col-lg-6 col-12">
       <p>Paradise Resort</p>
-      <p>Address: Rue de l'Aviation 41, Le Gosier, Guadelupe</p>
-      <p>GPS: 16.2007, -61.45458</p>
       <p>Phone 1: 0053 829 119 222</p>
       <p>Phone 2: 0053 829 119 223</p>
       <p>Email: ontact@paradise-resort.com</p>
+
 
     </div>
     <div class="footer-icons col col-lg-6 col-12">
       <a href="https://www.facebook.com" class="fab fa-facebook-square fa-2x footer-icon"></a>
       <a href="https://www.instagram.com" class="fab fa-instagram fa-2x footer-icon"></a>
       <a href="mailto:m.bluth@example.com" class="fas fa-at fa-2x footer-icon"></a>
-      <i class="fas fa-map-marked-alt fa-2x footer-icon"></i>
+
+      <!-- Button trigger modal -->
+      <i class="fas fa-map-marked-alt fa-2x footer-icon"  data-bs-toggle="modal" data-bs-target="#exampleModal">
+      </i>
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p>
+              Address: Rue de l'Aviation 41, Le Gosier, Guadelupe</p>
+              <br>
+              <p>GPS: 16.2007, -61.45458</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
     <p class="copyright">Copyright B.G. 2021</p>
   </div>

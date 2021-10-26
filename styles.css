@@ -109,7 +109,7 @@ margin: auto auto;
 }
 
 .contact-container{
-  margin:80px auto 100px;
+  margin:80px auto 50px;
   clear: both;
 }
 
@@ -123,7 +123,7 @@ margin: auto auto;
 @media (max-width: 500px) {
   .contact-container{
     text-align: center;
-    margin:30px auto 80px;
+    margin:30px auto 60px;
     clear: both;
   }
 
@@ -240,7 +240,7 @@ border-right: 0px;
 border-radius: 10px;
 border-style: solid;
 margin-top: 100px;
-line-height: 0.8;
+line-height: 1.5;
 }
 
 
@@ -254,7 +254,7 @@ line-height: 0.8;
 }
 
 .copyright{
-  margin-top: 40px;
+  margin-top: 20px;
   font-size: 11px;
   text-align: center;
 }
