@@ -13,7 +13,7 @@ border-style: solid;
 
 .navbar-brand {
   font-family: 'Kaushan Script', cursive;
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 
 .nav-link {
@@ -49,7 +49,8 @@ border-style: solid;
 }
 
 .title-section-buttons{
-  margin:9% 40px 0;
+  margin:20% 40px 0;
+  font-size: 1.3rem;
 }
 
 /* animation start */
@@ -172,7 +173,8 @@ margin: auto auto;
     /* width: 100%; */
     display: flex;
     flex-direction: column;
-    align-items: flex-end
+    align-items: flex-end;
+    margin-top: 40px;
 }
 
 .flex-rev {
@@ -212,7 +214,8 @@ margin: auto auto;
     border: 1px solid #243342;
     border-radius: 7px;
     margin-right: 20px;
-    transition: 0.15s ease-in-out
+    transition: 0.15s ease-in-out;
+    margin-top:40px;
 }
 
 .send-email-button {
