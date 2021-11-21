@@ -33,7 +33,7 @@
             <a class="nav-link active" aria-current="page" href="#contact">Contact</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Get directions</a>
+            <a class="nav-link active" href="#offer" data-bs-toggle="modal" data-bs-target="#detailed-location-modal" onclick="location.href='#open-street-map'">Get direction details</a>
           </li>
         </ul>
       </div>
@@ -56,7 +56,7 @@
         </h1>
         <!-- animation end -->
 
-        <button class="btn btn-outline-dark title-section-buttons" type="button" name="button">See our rooms</button>
+        <button class="btn btn-outline-dark title-section-buttons" type="button" name="button" onclick="location.href='#offer'">See our rooms</button>
         <button class="btn btn-outline-dark title-section-buttons" type="button" name="button">Ask for free rooms</button>
       </div>
 
@@ -82,7 +82,7 @@
           <img src="images/card-image-surfing.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Surfing</h5>
-            <p class="card-text">Ale the basic equipment is there for you - free of charge!</p>
+            <p class="card-text">All the basic equipment is there for you - free of charge!</p>
           </div>
         </div>
       </div>
@@ -142,7 +142,8 @@
     <!-- Tabs start -->
     <nav>
       <div class="nav nav-tabs" id="nav-tab" role="tablist">
-        <button class="nav-link active button-room-picker" id="button-nav-offer-single-room" data-bs-toggle="tab" data-bs-target="#nav-offer-single-room" type="button" role="tab" aria-controls="nav-offer-single-room" aria-selected="true">Single bedded</button>
+        <button class="nav-link active button-room-picker" id="button-nav-offer-single-room" data-bs-toggle="tab" data-bs-target="#nav-offer-single-room" type="button" role="tab" aria-controls="nav-offer-single-room" aria-selected="true">Single
+          bedded</button>
         <button class="nav-link button-room-picker" id="button-nav-offer-double-room" data-bs-toggle="tab" data-bs-target="#nav-offer-double-room" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Double bedded</button>
         <button class="nav-link button-room-picker" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Three-four bedded</button>
       </div>
@@ -152,7 +153,7 @@
       <div class="tab-pane fade show active" id="nav-offer-single-room" role="tabpanel" aria-labelledby="nav-home-tab">
         <div class="card mb-3">
           <div class="row g-0">
-            <div class="col-md-4">
+            <div class="col-md-12 col-lg-4">
               <div id="carousel-single-room" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                   <button type="button" data-bs-target="#carousel-single-room" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -180,11 +181,18 @@
                 </button>
               </div>
             </div>
-            <div class="col-md-8">
+            <div class="col-md-12 col-lg-5">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                <p class="card-text">Single bedded room for multiple possibilities.<br>
+                  Perfect for your solo city-break adventure or romantic honey moon.</p>
+                <p class="card-text">Pick from apartaments with shower or large bath tub or additional pool at the back of the house. All our rooms include 24/7 service , 50" TVs, air-conditioning. For any special needs, please use any form of
+                  contact to let us prepare for your arrive.</p>
+                <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card-body">
+                <p class="card-text">Price check.</p>
               </div>
             </div>
           </div>
@@ -223,11 +231,18 @@
                 </button>
               </div>
             </div>
-            <div class="col-md-8">
+            <div class="col-md-5">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                <p class="card-text">You name it - we doubled that!</p>
+                <p class="card-text">Romms in this offer have separate bedrooms with separate bathrooms for all the ocasions you may need them this way. Share this apartament with your family of best friends and have the best holidays in your life.</p>
+                <p class="card-text">As all our rooms, this also includes 24/7 service , 50" TVs, air-conditioning. For any special needs, please use any form of
+                  contact to let us prepare for your arrive.</p>
+                <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card-body">
+                <p class="card-text">Price check.</p>
               </div>
             </div>
           </div>
@@ -266,11 +281,16 @@
                 </button>
               </div>
             </div>
-            <div class="col-md-8">
+            <div class="col-md-5">
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card-body">
+                <p class="card-text">Price check.</p>
               </div>
             </div>
           </div>
@@ -286,30 +306,30 @@
       <div class="col col-lg-6 col-md-12 col-sm-12">
 
         <div class="row">
-        <div class="contact-container col col-lg-12">
-          <img class="contact-person-photo" src="images/contact-1.jpg" alt="">
+          <div class="contact-container col col-lg-12">
+            <img class="contact-person-photo" src="images/contact-1.jpg" alt="">
 
 
-          <div class="contact-person-info col col-lg-12">
-            <h4 class="contact-name">Christiana Haney</h4>
-            <p>Hotel manager</p>
-            <p>phone: 0053 829 119 222</p>
-            <p>email: <a href="mailto:christiana.haney@paradiseresort.com">christiana.haney@paradiseresort.com</a></p>
+            <div class="contact-person-info col col-lg-12">
+              <h4 class="contact-name">Christiana Haney</h4>
+              <p>Hotel manager</p>
+              <p>phone: 0053 829 119 222</p>
+              <p>email: <a href="mailto:christiana.haney@paradiseresort.com">christiana.haney@paradiseresort.com</a></p>
+            </div>
           </div>
-        </div>
 
           <div class="contact-container col col-lg-12">
-          <img class="contact-person-photo" src="images/contact-2.jpg" alt="">
+            <img class="contact-person-photo" src="images/contact-2.jpg" alt="">
 
-          <div class="contact-person-info col col-lg-12">
-            <h4 class="contact-name">Pia Jeffery</h4>
-            <p>Room booking and hotel supervisor</p>
-            <p>phone:0053 829 119 223</p>
-            <p>email: <a href="mailto:pia.jeffery@paradiseresort.com">pia.jeffery@paradiseresort.com</a></p>
+            <div class="contact-person-info col col-lg-12">
+              <h4 class="contact-name">Pia Jeffery</h4>
+              <p>Room booking and hotel supervisor</p>
+              <p>phone: 0053 829 119 223</p>
+              <p>email: <a href="mailto:pia.jeffery@paradiseresort.com">pia.jeffery@paradiseresort.com</a></p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
 
 
       <!-- Contact form start-->
@@ -326,59 +346,63 @@
       </div>
     </div>
 
-      <!-- contact form end -->
+    <!-- contact form end -->
 
-      <!-- Embed map start -->
-      <div class="map-box col col-lg-12 col-12">
-        <iframe width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
-          src="https://www.openstreetmap.org/export/embed.html?bbox=-61.47322654724122%2C16.192111771257995%2C-61.43752098083497%2C16.209997394522972&amp;layer=mapnik&amp;marker=16.201054785664198%2C-61.455373764038086"
-          style="border: 1px solid black"></iframe><br />
-        <small><a href="https://www.openstreetmap.org/?mlat=16.2011&amp;mlon=-61.4554#map=16/16.2011/-61.4554">View Larger Map</a></small>
-      </div>
-      <!-- Embed map end -->
+    <!-- Embed map start -->
+    <div id="open-street-map" class="map-box col col-lg-12 col-12">
+      <iframe width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+        src="https://www.openstreetmap.org/export/embed.html?bbox=-61.47322654724122%2C16.192111771257995%2C-61.43752098083497%2C16.209997394522972&amp;layer=mapnik&amp;marker=16.201054785664198%2C-61.455373764038086"
+        style="border: 1px solid black"></iframe><br />
+      <small><a href="https://www.openstreetmap.org/?mlat=16.2011&amp;mlon=-61.4554#map=16/16.2011/-61.4554">View Larger Map</a></small>
+    </div>
+    <!-- Embed map end -->
     </div>
   </section>
 
   <section id="footer">
-  <div class="row">
-    <div class=" footer-info col col-lg-6 col-12">
-      <p>Paradise Resort</p>
-      <p>Phone 1: 0053 829 119 222</p>
-      <p>Phone 2: 0053 829 119 223</p>
-      <p>Email: ontact@paradise-resort.com</p>
+    <div class="row">
+      <div class=" footer-info col col-lg-6 col-12">
+        <p class="footer-brand">Paradise Resort</p>
+        <p>Phone 1: 0053 829 119 222</p>
+        <p>Phone 2: 0053 829 119 223</p>
+        <!-- <a class="" data-bs-toggle="modal" data-bs-target="#detailed-location-modal">Get detailed location info.</a> -->
+        <p>Email: contact@paradise-resort.com</p>
 
 
-    </div>
-    <div class="footer-icons col col-lg-6 col-12">
-      <a href="https://www.facebook.com" class="fab fa-facebook-square fa-2x footer-icon"></a>
-      <a href="https://www.instagram.com" class="fab fa-instagram fa-2x footer-icon"></a>
-      <a href="mailto:m.bluth@example.com" class="fas fa-at fa-2x footer-icon"></a>
+      </div>
+      <div class="footer-icons-container col col-lg-6 col-12">
+        <a href="https://www.facebook.com" class="fab fa-facebook-square fa-2x footer-icon"></a>
+        <a href="https://www.instagram.com" class="fab fa-instagram fa-2x footer-icon"></a>
+        <a href="mailto:m.bluth@example.com" class="fas fa-at fa-2x footer-icon"></a>
 
-      <!-- Button trigger modal -->
-      <i class="fas fa-map-marked-alt fa-2x footer-icon"  data-bs-toggle="modal" data-bs-target="#exampleModal">
-      </i>
-      <!-- Modal -->
-      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-              <p>
-              Address: Rue de l'Aviation 41, Le Gosier, Guadelupe</p>
-              <br>
-              <p>GPS: 16.2007, -61.45458</p>
+        <!-- Button trigger modal -->
+        <i class="fas fa-map-marked-alt fa-2x footer-icon" data-bs-toggle="modal" data-bs-target="#detailed-location-modal"></i>
+
+        <!-- Modal -->
+        <div class="modal fade" id="detailed-location-modal" tabindex="-1" aria-labelledby="detailed-location-modal-label" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="detailed-location-modal-label">Additional locations info</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <p>
+                  Address: Rue de l'Aviation 41, Le Gosier, Guadelupe</p>
+                <br>
+                <p>GPS: 16.2007, -61.45458</p>
+                <br>
+                <a href="https://goo.gl/maps/DHUNjkkzStTbac3q9">Google Maps link</a>
+              </div>
             </div>
           </div>
         </div>
-      </div>
 
+      </div>
+      <!-- <p class="copyright">Copyright B.G. 2021</p> -->
     </div>
-    <p class="copyright">Copyright B.G. 2021</p>
-  </div>
   </section>
 
 </body>
+
 </html>

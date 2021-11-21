@@ -3,12 +3,12 @@ body {
   min-width: 275px;
 }
 
-.navbar{
-border-top: 0px;
-border-left: 0px;
-border-right: 0px;
-border-radius: 10px;
-border-style: solid;
+.navbar {
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-radius: 10px;
+  border-style: solid;
 }
 
 .navbar-brand {
@@ -30,8 +30,8 @@ border-style: solid;
   max-height: 600px;
   margin: 20px auto;
   border-radius: 3%;
-  max-width: 98%;}
-
+  max-width: 98%;
+}
 
 .title-header {
   color: black;
@@ -45,18 +45,15 @@ border-style: solid;
   font-weight: bold;
 }
 
-.animated-description{
-}
+.animated-description {}
 
-.title-section-buttons{
-  margin:20% 40px 0;
+.title-section-buttons {
+  margin: 20% 40px 0;
   font-size: 1.3rem;
 }
 
 /* animation start */
-
 /* animation end */
-
 /* ACTIVITIES */
 #activities {
   padding: 3% 7% !important;
@@ -67,225 +64,226 @@ border-style: solid;
   padding: 3% 7%;
 }
 
-.card-title{
+.card-title {
   text-align: center;
 }
 
-.card-text{
-  text-align:  justify;
+.card-text {
+  text-align: justify;
 }
 
-.card{
+.card {
   margin: 30px 25px;
 }
-/* OFFER */
 
-#offer{
+/* OFFER */
+#offer {
   padding: 3% 7% !important;
 }
 
-.room-offer{
+#offer .card-text{
+  text-align: center;
+}
+
+.room-offer {
   padding: 10px 25%;
 }
 
-.offer-image{
+.offer-image {
   margin-right: 10px;
 }
 
-.button-room-picker{
-margin: auto auto;
+.button-room-picker {
+  margin: auto auto;
 }
 
 /* CONTACT */
-#contact{
+#contact {
   padding: 3% 7% !important;
 }
-.contact-name{
+
+.contact-name {
   margin-bottom: 20px;
 }
 
-.contact-person-info{
+.contact-person-info {
   line-height: 1.4;
   padding-left: 25px;
 }
 
-.contact-container{
-  margin:80px auto 50px;
+.contact-container {
+  margin: 80px auto 50px;
   clear: both;
 }
 
-.contact-person-photo{
+.contact-person-photo {
   float: left;
   border-radius: 100%;
   max-width: 160px;
-  padding:10px;
+  padding: 10px;
 }
 
 @media (max-width: 500px) {
-  .contact-container{
+  .contact-container {
     text-align: center;
-    margin:30px auto 60px;
+    margin: 30px auto 60px;
     clear: both;
   }
 
-  .contact-person-info{
+  .contact-person-info {
     line-height: 1.4;
     padding-left: 25px;
     text-align: center;
   }
 
-  .contact-person-photo{
+  .contact-person-photo {
     margin: auto 25% 30px;
   }
-
 }
 
-.contact-person-info{
+.contact-person-info {
   margin-left: 180px;
 }
 
 @media (max-width: 500px) {
-  .contact-person-info{
+  .contact-person-info {
     margin-left: 0px;
   }
 }
 
-.map-box{
+.map-box {
   margin-top: 80px;
 }
 
 /* contact form start */
 .form {
-    /* width: 40%; */
-    /* background-color: white; */
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    /* align-items: flex-end */
+  /* width: 40%; */
+  /* background-color: white; */
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: flex-end */
 }
 
 .form h1 {
-    text-align: center;
-    margin-bottom: 20px;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 .form form {
-    /* width: 100%; */
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    margin-top: 40px;
+  /* width: 100%; */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: 60px;
 }
 
 .flex-rev {
-    display: flex;
-    flex-direction: column-reverse;
-    margin-bottom: 10px;
-    width: 100%
+  display: flex;
+  flex-direction: column-reverse;
+  margin-bottom: 10px;
+  width: 100%
 }
 
 .flex-rev input,
 .flex-rev textarea {
-    border: none;
-    background-color: #e6e6e6;
-    padding: 12px 10px;
-    font-size: 16px;
-    resize: none;
-    margin-top: 7px;
-    margin-bottom: 16px;
-    border-radius: 5px;
-    color: #243342;
-    outline-color: #243342;
-    outline-width: thin;
-    -webkit-appearance: none
+  border: none;
+  background-color: #e6e6e6;
+  padding: 12px 10px;
+  font-size: 16px;
+  resize: none;
+  margin-top: 7px;
+  margin-bottom: 16px;
+  border-radius: 5px;
+  color: #243342;
+  outline-color: #243342;
+  outline-width: thin;
+  -webkit-appearance: none
 }
 
 .flex-rev textarea {
-    height: 150px
+  height: 205px
 }
 
 .send-email-button {
-    display: inline-block;
-    padding: 14px 30px;
-    text-decoration: none;
-    color: #243342;
-    letter-spacing: 1.2px;
-    font-size: 14px;
-    border: 1px solid #243342;
-    border-radius: 7px;
-    margin-right: 20px;
-    transition: 0.15s ease-in-out;
-    margin-top:40px;
+  display: inline-block;
+  padding: 14px 30px;
+  text-decoration: none;
+  color: #243342;
+  letter-spacing: 1.2px;
+  font-size: 14px;
+  border: 1px solid #243342;
+  border-radius: 7px;
+  margin-right: 20px;
+  transition: 0.15s ease-in-out;
+  margin-top: 15px;
 }
 
 .send-email-button {
-    color: white;
-    background: #243342
+  color: white;
+  background: #243342
 }
 
 .send-email-button:hover {
-    cursor: pointer;
-    color: #1bf1dc
+  cursor: pointer;
+  color: #1bf1dc
 }
 
 .send-email-button {
-    -webkit-appearance: none;
-    margin-right: 0
+  -webkit-appearance: none;
+  margin-right: 0
 }
+
 /* contact form end */
-
 /* FOOTER */
-#footer{
-padding: 2% 7% 1% 7%;
-border-bottom: 0px;
-border-left: 0px;
-border-right: 0px;
-border-radius: 10px;
-border-style: solid;
-margin-top: 100px;
-line-height: 1.5;
+#footer {
+  padding: 2% 7% 1% 7%;
+  border-bottom: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-radius: 10px;
+  border-style: solid;
+  margin-top: 100px;
+  line-height: 1.5;
 }
 
+.footer-brand {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 1.5rem;
+}
 
-.footer-icons{
+.footer-icons-container {
   display: flex;
   justify-content: center;
 }
 
-.footer-icon{
+.footer-icon {
   margin: auto auto;
+  color: inherit;
 }
 
-.copyright{
+/* .copyright{
   margin-top: 20px;
   font-size: 11px;
   text-align: center;
-}
-
+} */
 /* test */
-
-.adjectives-container{
+.adjectives-container {
   width: 100px;
   margin-bottom: 100px;
-  paddfing-right: 50px;
+  padding-right: 50px;
 }
 
-.rotatingText{
-display: inherit;
-width: 300px;}
+.rotatingText {
+  display: inherit;
+  width: 300px;
+}
 
 .rotatingText-adjective {
-  /* font-family: "Open Sans", sans-serif; */
-  /* font-size: 50px; */
   font-style: normal;
   font-weight: 700;
-  /* left: 0; */
-  /* margin-bottom: 0; */
-  /* margin-top: 50px; */
   opacity: 0;
   display: inline-block;
-  /* right: 0; */
-  /* top: 0; */
   position: absolute;
 }
 
@@ -328,7 +326,7 @@ width: 300px;}
 @keyframes rotate-last {
   0% {
     opacity: 0;
-    transform: translate3d(0, 50px, 0);
+    transform: translate3d(50, 50px, 0);
   }
 
   50%, 100% {
