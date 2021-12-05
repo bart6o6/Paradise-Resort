@@ -255,12 +255,23 @@ body {
 .footer-icons-container {
   display: flex;
   justify-content: center;
+
 }
 
+@media (max-width: 991px) {
+  .footer-icons-container {
+    margin-top:10%; }
+  }
+
 .footer-icon {
-  margin: auto auto;
+  margin: 33.3%  auto;
   color: inherit;
 }
+
+@media (max-width: 991px) {
+  .footer-icon {
+  margin: 3% auto;}
+  }
 
 /* .copyright{
   margin-top: 20px;
