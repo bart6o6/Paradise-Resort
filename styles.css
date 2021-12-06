@@ -72,7 +72,7 @@ body {
   text-align: justify;
 }
 
-.card {
+#activities .card {
   margin: 30px 25px;
 }
 
@@ -81,8 +81,19 @@ body {
   padding: 3% 7% !important;
 }
 
-#offer .card-text{
+@media (min-width:1400px) {
+  #offer .card-body {
+    padding: 5% 8%;
+  }
+}
+
+#offer .card-text {
   text-align: center;
+}
+
+#offer .card-footer {
+  background-color: white;
+  border-top: none;
 }
 
 .room-offer {
@@ -255,23 +266,24 @@ body {
 .footer-icons-container {
   display: flex;
   justify-content: center;
-
 }
 
 @media (max-width: 991px) {
   .footer-icons-container {
-    margin-top:10%; }
+    margin-top: 10%;
   }
+}
 
 .footer-icon {
-  margin: 33.3%  auto;
+  margin: 33.3% auto;
   color: inherit;
 }
 
 @media (max-width: 991px) {
   .footer-icon {
-  margin: 3% auto;}
+    margin: 3% auto;
   }
+}
 
 /* .copyright{
   margin-top: 20px;
