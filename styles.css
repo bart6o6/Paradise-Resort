@@ -4,6 +4,7 @@ body {
 }
 
 .navbar {
+  background-color: white;
   border-top: 0px;
   border-left: 0px;
   border-right: 0px;
@@ -76,6 +77,11 @@ body {
   margin: 30px 25px;
 }
 
+#offer .card-body
+{
+  min-height: 210px;
+}
+
 /* OFFER */
 #offer {
   padding: 3% 7% !important;
@@ -90,6 +96,23 @@ body {
 #offer .card-text {
   text-align: center;
 }
+
+.pricing-button{
+border-color: #bbf3f4 !important;
+background-color: white;
+border: 3px;
+border-style: solid;
+font-size: 18px;
+-webkit-transition: border-color 2s ease-out;
+  -moz-transition: border-color 2s ease-out;
+  -o-transition: border-color 2s ease-out;
+  transition: border-color 2s ease-out;
+}
+
+.pricing-button:hover{
+border-color: black !important;
+}
+
 
 #offer .card-footer {
   background-color: white;
@@ -228,16 +251,13 @@ body {
   margin-right: 20px;
   transition: 0.15s ease-in-out;
   margin-top: 15px;
-}
-
-.send-email-button {
   color: white;
   background: #243342
 }
 
 .send-email-button:hover {
   cursor: pointer;
-  color: #1bf1dc
+  color: #bbf3f4;
 }
 
 .send-email-button {
@@ -270,13 +290,18 @@ body {
 
 @media (max-width: 991px) {
   .footer-icons-container {
-    margin-top: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
   }
 }
 
 .footer-icon {
   margin: 33.3% auto;
   color: inherit;
+}
+
+.footer-icon:hover {
+color:#bbf3f4;
 }
 
 @media (max-width: 991px) {
