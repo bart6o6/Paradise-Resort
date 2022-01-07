@@ -1,7 +1,12 @@
 body {
   padding: 0% 7%;
   min-width: 320px;
+  font-size: 1rem;
 }
+
+@media (max-width: 1200px) { body{
+  font-size: 1.25rem;
+  } }
 
 .navbar {
   background-color: white;
@@ -24,7 +29,8 @@ body {
 
 #title-section {
   text-align: center;
-  padding: 6% 0;}
+  padding: 6% 0;
+}
 
 .title-photo {
   max-height: 600px;
@@ -117,9 +123,8 @@ body {
     transform: translate3d(0, 0, 0);
   }
 }
+
 /* animation end */
-
-
 /* ACTIVITIES */
 #activities {
   padding: 3% 7% !important;
@@ -142,11 +147,6 @@ body {
   margin: 30px 25px;
 }
 
-#offer .card-body
-{
-  min-height: 210px;
-}
-
 /* OFFER */
 #offer {
   padding: 3% 7% !important;
@@ -162,22 +162,25 @@ body {
   text-align: center;
 }
 
-.pricing-button{
-border-color: #bbf3f4 !important;
-background-color: white;
-border: 3px;
-border-style: solid;
-font-size: 1.125rem;
--webkit-transition: border-color 2s ease-out;
+#offer .card-body {
+  min-height: 210px;
+}
+
+.pricing-button {
+  border-color: #bbf3f4 !important;
+  background-color: white;
+  border: 3px;
+  border-style: solid;
+  font-size: 1.125rem;
+  -webkit-transition: border-color 2s ease-out;
   -moz-transition: border-color 2s ease-out;
   -o-transition: border-color 2s ease-out;
   transition: border-color 2s ease-out;
 }
 
-.pricing-button:hover{
-border-color: black !important;
+.pricing-button:hover {
+  border-color: black !important;
 }
-
 
 #offer .card-footer {
   background-color: white;
@@ -195,10 +198,11 @@ border-color: black !important;
 .button-room-picker {
   margin: auto auto;
   color: gray;
+  font-size: 1.5rem;
 }
 
-.button-room-picker:hover{
-  color: black ;
+.button-room-picker:hover {
+  color: black;
 }
 
 /* CONTACT */
@@ -332,7 +336,6 @@ border-color: black !important;
   color: #bbf3f4;
 }
 
-
 /* contact form end */
 /* FOOTER */
 #footer {
@@ -348,7 +351,7 @@ border-color: black !important;
 
 .footer-brand {
   font-family: 'Kaushan Script', cursive;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
 }
 
 .footer-icons-container {
@@ -369,7 +372,7 @@ border-color: black !important;
 }
 
 .footer-icon:hover {
-color:#bbf3f4;
+  color: #bbf3f4;
 }
 
 @media (max-width: 991px) {
