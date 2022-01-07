@@ -1,6 +1,6 @@
 body {
   padding: 0% 7%;
-  min-width: 275px;
+  min-width: 320px;
 }
 
 .navbar {
@@ -24,8 +24,7 @@ body {
 
 #title-section {
   text-align: center;
-  padding: 6% 0;
-}
+  padding: 6% 0;}
 
 .title-photo {
   max-height: 600px;
@@ -46,15 +45,81 @@ body {
   font-weight: bold;
 }
 
-.animated-description {}
-
 .title-section-buttons {
-  margin: 20% 40px 0;
+  margin: 20% 3% 0;
   font-size: 1.3rem;
 }
 
 /* animation start */
+.adjectives-container {
+  width: 100px;
+  margin-bottom: 100px;
+  padding-right: 50px;
+}
+
+.rotatingText {
+  display: inherit;
+  width: 300px;
+}
+
+.rotatingText-adjective {
+  font-style: normal;
+  font-weight: 700;
+  opacity: 0;
+  display: inline-block;
+  position: absolute;
+}
+
+.rotatingText-adjective:nth-of-type(1) {
+  animation-name: rotate;
+  animation-duration: 1.5s;
+  animation-delay: 0.5s;
+}
+
+.rotatingText-adjective:nth-of-type(2) {
+  animation-name: rotate;
+  animation-duration: 1.5s;
+  animation-delay: 1.75s;
+}
+
+.rotatingText-adjective:nth-of-type(3) {
+  animation-name: rotate-last;
+  animation-duration: 1.5s;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes rotate {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 50px, 0);
+  }
+
+  20%, 80% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translate3d(0, -25px, 0);
+  }
+}
+
+@keyframes rotate-last {
+  0% {
+    opacity: 0;
+    transform: translate3d(50, 50px, 0);
+  }
+
+  50%, 100% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
 /* animation end */
+
+
 /* ACTIVITIES */
 #activities {
   padding: 3% 7% !important;
@@ -102,7 +167,7 @@ border-color: #bbf3f4 !important;
 background-color: white;
 border: 3px;
 border-style: solid;
-font-size: 18px;
+font-size: 1.125rem;
 -webkit-transition: border-color 2s ease-out;
   -moz-transition: border-color 2s ease-out;
   -o-transition: border-color 2s ease-out;
@@ -129,6 +194,11 @@ border-color: black !important;
 
 .button-room-picker {
   margin: auto auto;
+  color: gray;
+}
+
+.button-room-picker:hover{
+  color: black ;
 }
 
 /* CONTACT */
@@ -224,7 +294,7 @@ border-color: black !important;
   border: none;
   background-color: #e6e6e6;
   padding: 12px 10px;
-  font-size: 16px;
+  font-size: 1rem;
   resize: none;
   margin-top: 7px;
   margin-bottom: 16px;
@@ -245,14 +315,16 @@ border-color: black !important;
   text-decoration: none;
   color: #243342;
   letter-spacing: 1.2px;
-  font-size: 14px;
+  font-size: 1rem;
   border: 1px solid #243342;
   border-radius: 7px;
   margin-right: 20px;
   transition: 0.15s ease-in-out;
   margin-top: 15px;
   color: white;
-  background: #243342
+  background: #243342;
+  -webkit-appearance: none;
+  margin-right: 0
 }
 
 .send-email-button:hover {
@@ -260,10 +332,6 @@ border-color: black !important;
   color: #bbf3f4;
 }
 
-.send-email-button {
-  -webkit-appearance: none;
-  margin-right: 0
-}
 
 /* contact form end */
 /* FOOTER */
@@ -315,70 +383,3 @@ color:#bbf3f4;
   font-size: 11px;
   text-align: center;
 } */
-/* test */
-.adjectives-container {
-  width: 100px;
-  margin-bottom: 100px;
-  padding-right: 50px;
-}
-
-.rotatingText {
-  display: inherit;
-  width: 300px;
-}
-
-.rotatingText-adjective {
-  font-style: normal;
-  font-weight: 700;
-  opacity: 0;
-  display: inline-block;
-  position: absolute;
-}
-
-.rotatingText-adjective:nth-of-type(1) {
-  animation-name: rotate;
-  animation-duration: 1.5s;
-  animation-delay: 0.5s;
-}
-
-.rotatingText-adjective:nth-of-type(2) {
-  animation-name: rotate;
-  animation-duration: 1.5s;
-  animation-delay: 1.75s;
-}
-
-.rotatingText-adjective:nth-of-type(3) {
-  animation-name: rotate-last;
-  animation-duration: 1.5s;
-  animation-delay: 3s;
-  animation-fill-mode: forwards;
-}
-
-@keyframes rotate {
-  0% {
-    opacity: 0;
-    transform: translate3d(0, 50px, 0);
-  }
-
-  20%, 80% {
-    opacity: 1;
-    transform: translate3d(0, 0, 0);
-  }
-
-  100% {
-    opacity: 0;
-    transform: translate3d(0, -25px, 0);
-  }
-}
-
-@keyframes rotate-last {
-  0% {
-    opacity: 0;
-    transform: translate3d(50, 50px, 0);
-  }
-
-  50%, 100% {
-    opacity: 1;
-    transform: translate3d(0, 0, 0);
-  }
-}
